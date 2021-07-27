@@ -9,16 +9,16 @@ If a number is divisible by 3 it should print “Consultadd” as a string
 If a number is divisible by 5 it should print “Python Training” as a string
 If a number is divisible by both 3 and 5 it should print “Consultadd - Python Training” as a
 string."""
-# user_input = eval(input("enter number: "))
+user_input = eval(input("enter number: "))
 
-# if user_input % 3 == 0 and user_input % 5 == 0:
-#     print("Consultadd - python Training")
+if user_input % 3 == 0 and user_input % 5 == 0:
+    print("Consultadd - python Training")
 
-# if user_input % 3 == 0:
-#     print("Consultadd")
+if user_input % 3 == 0:
+    print("Consultadd")
 
-# if user_input % 5 == 0:
-#     print("python Training")
+if user_input % 5 == 0:
+    print("python Training")
 
 #2. Write a program in Python to perform the following operator based task:
 """Ask user to choose the following option first:
