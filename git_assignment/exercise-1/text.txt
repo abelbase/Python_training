@@ -1,0 +1,14 @@
+Exercise-1 Create your first commit
+task:
+Initialize your Repository: git init project Exercise-1
+=>git init
+
+Create a file with name index.html
+=> touch "index.html"
+
+Write code in newly created file
+Stage index.html
+=> git add "index.html"
+
+Commit with message ‘Initial Message.’
+=> git commit -m "Initial Message"
