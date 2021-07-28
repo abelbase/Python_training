@@ -1,0 +1,16 @@
+Exercise -2 : commit only one file.
+task: 
+
+Initialize your Repository: git init Exercise-2
+=> git init
+
+Create a files with names index.html and about.html
+=> touch "index.html"
+=> touch "about.html"
+
+Add code in both files.
+Stage only one file.
+=> git add "about.html"
+
+Commit with message: ‘File x added.’
+=> git commit -m "file about.html added"
