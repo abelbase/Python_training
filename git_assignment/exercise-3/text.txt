@@ -1,0 +1,21 @@
+Exercise-3 modify last commit
+task:
+Initialize your Repository: git init project Exercise-3
+=> git init
+Create a file with name index.html
+=> touch "index.html"
+
+Write code in newly created file
+Stage index.html
+=> git add "index.html"
+
+Commit with message ‘adding index.html.’
+=> git commit -m "adding index.html"
+
+Add new about.html file with some code.
+=> touch "about.html"
+
+Now modify message of previous commit as ‘Adding index.html and
+about.html ’and add about.html file in previous commit.
+=> git add "about.html"
+=> git commit --amend -m "Adding index.html and about.html"
