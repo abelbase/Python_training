@@ -1,0 +1,20 @@
+Exercise-4 create git ignore file
+task: 
+
+Initialize your Repository: git init Exercise-4
+=> git init
+
+Create a gitignore file that will ignore
+=> touch .gitignore
+
+all files with ‘exe’ extension
+=> *.exec
+
+all files with ‘o’ extension
+=> *.o
+
+all files with ‘jar’ extension
+=> *.jar
+
+the whole libraries directory
+=> git_assignment/**
