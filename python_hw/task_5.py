@@ -92,9 +92,6 @@ def file_handling():
             for j in wordlist:
                 if len(j) % 2 == 0:
                     a = a + " " + j
-        with open('abc.txt','w') as wf:
-            for line in f:
-                wf.write(line)
         
         print(a)
 file_handling()
