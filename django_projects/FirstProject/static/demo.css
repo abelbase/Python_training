@@ -1,0 +1,15 @@
+h1{
+    color:red;
+    text-align: center;
+    text-transform: lowercase;
+    font-style: italic;   
+}
+img{
+    border-radius: 50%;
+
+}
+hello{
+    background:url('/static/images/coding.png') ;
+    background-repeat: no-repeat;
+}
+
